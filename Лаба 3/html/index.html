@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile</title>
+    <meta charset=utf-8>
+    <link rel="icon" type="image/ico" href="favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body class="body">
+<div>
+    <img src="../resources/bg.jpg" class="bgImg">
+</div>
+<header class="hdr">
+    <span>MOBILE PHONES</span>
+</header>
+<div class="form">
+    <form id="userData">
+        <table cellpadding="4">
+            <tr>
+                <td>Логин</td>
+                <td><input type="text" name="login"><br></td>
+            </tr>
+            <tr>
+                <td>Имя</td>
+                <td><input type="text" name="name"><br></td>
+            </tr>
+            <tr>
+                <td>Фамилия</td>
+                <td><input type="text" name="secondName"><br></td>
+            </tr>
+            <tr>
+                <td>Дата покупки</td>
+                <td><input type="datetime-local" name="PurchaseDate"><br></td>
+            </tr>
+            <tr>
+                <td>Вид:</td>
+                <td>
+                    <input type="radio" name="kind" value="sensor" checked>сенсорный<br>
+                    <input type="radio" name="kind" value="buttons">кнопочный<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Предпочитаемая<br>модель</td>
+                <td>
+                    <select name="model">
+                        <option value="Нет">Нет</option>
+                        <option value="Samsung">Samsung</option>
+                        <option value="Iphone">Iphone</option>
+                        <option value="Xiaomi">Xiaomi</option>
+                        <option value="Huawei">Huawei</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Комплектация</td>
+                <td>
+                    <input type="checkbox" name="char" value="Зарядка">Зарядка<br>
+                    <input type="checkbox" name="head" value="Наушники">Наушники<br>
+                    <input type="checkbox" name="wire" value="Провод">Провод<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Дополнительные пожелания<br>(цвет,модель,год выпуска)</td>
+                <td>
+                    <textarea cols="40" rows="10" name="info"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-bottom: none">
+                    <input type="submit" value="Отправить" id="sendButton">
+                </td>
+                <td style="border-bottom: none">
+                    <input type="reset" value="Сброс">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<script src="../js/scriptt.js" type="text/javascript"></script>
+</body>
+</html>

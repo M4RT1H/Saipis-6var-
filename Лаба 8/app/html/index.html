@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8 лабораторная </title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <div>
+        <img src="../resources/back.jpeg" class="bgImg">
+    </div>
+<div class="main-block">
+    <form method="post" action="/">
+        <div>
+            <label>ФИО: </label>
+            <textarea required name="FullName"></textarea>
+        </div>
+        <div>
+            <label>Где вы учитесь:</label>
+            <textarea required name="address"></textarea>
+        </div>
+        <div>
+            <label>Email:</label>
+            <textarea style="margin-left: auto" required name="mail"></textarea>
+        </div>
+        <div>
+            <label>Номер телефона:</label>
+            <textarea name="phoneNumber"></textarea>
+        </div>
+        <div>
+            <label>Ссылка на ваш GitHub,<br>резюме,портфолио:</label>
+            <textarea name="comment"></textarea>
+        </div>
+        <div>
+            <label>Чем бы вы хотели заниматься?</label>
+            <input type="radio" name="radio" value="yes" checked/>
+            <label>Back-end</label>
+            <input type="radio" name="radio" value="no"/>
+            <label>Front-end</label>
+        </div>
+        <div class="textbut">
+           <label>Языки программирования,которые вы знаете</label>
+            <input type="checkbox" name="personal"/>
+            <label>JavaScript</label>
+            <input type="checkbox" name="service"/>
+            <label>C++</label>
+        </div>
+        <div  class="textbut">
+            <label>Ваш уровень английского</label>
+            <select name="rate">
+                <option>A0</option>
+                <option>A1</option>
+                <option>А2</option>
+                <option>B1</option>
+                <option>B2</option>
+                <option>C1</option>
+                <option>C2</option>
+            </select>
+        </div>
+        <button type="submit">Отправить</button>
+    </form>
+
+    <div style="margin-left: auto">
+        <div>
+            <label> ФИО: </label>
+            <textarea required name="FullName"></textarea>
+        </div>
+        <div>
+            <label>Где вы учитесь:</label>
+            <textarea required name="address"></textarea>
+        </div>
+        <div>
+            <label>Email:</label>
+            <textarea style="margin-left: auto" required name="mail"></textarea>
+        </div>
+        <div>
+            <label>Номер телефона:</label>
+            <textarea name="phoneNumber"></textarea>
+        </div>
+        <div>
+            <label>Ссылка на ваш GitHub,<br>резюме,портфолио:</label>
+            <textarea name="comment"></textarea>
+        </div>
+        <div>
+            <label>Чем бы вы хотели заниматься?</label>
+            <input type="radio" name="radio" value="yes" checked/>
+            <label>Back-end</label>
+            <input type="radio" name="radio" value="no"/>
+            <label>Front-end</label>
+        </div>
+        <div  class="textbutе">
+           <label>Языки программирования,которые вы знаете</label>
+            <input type="checkbox" name="personal"/>
+            <label>JavaScript</label>
+            <input type="checkbox" name="service"/>
+            <label>C++</label>
+        </div>
+        <div  class="textbutе">
+            <label>Ваш уровень английского</label>
+            <select name="rate">
+                <option>A0</option>
+                <option>A1</option>
+                <option>А2</option>
+                <option>B1</option>
+                <option>B2</option>
+                <option>C1</option>
+                <option>C2</option>
+            </select>
+        </div>
+        <button type="submit" id="receive">Отправить</button>
+    </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../js/script.js"></script>
+</html>

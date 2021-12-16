@@ -1,0 +1,125 @@
+ #about {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#div {
+    float: right;
+    width: 145px;
+    height: 50px;
+    background: #df9e12;
+    filter: drop-shadow(-3px 0px 0 black);
+    -webkit-filter:  drop-shadow(-3px 0px 0 #df9e12);
+ 
+}
+
+#div::after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    right: 145px;
+    top: 0;
+    border-right: 70px solid #df9e12;
+    border-left: 70px solid transparent; /* прозрачные границы */
+    border-bottom: 50px solid transparent;
+    
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background: #2f2f2f;
+    background-origin: border-box;
+    background-size: cover;
+}
+
+html {
+    height: 100%;
+}
+
+.text {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #000000;
+    border-radius: 0 0 20px 20px;
+    background: radial-gradient( #f5f370, #c7ab0e);
+    min-height: 100%;
+}
+
+
+.about-block {
+    padding-left: 10px;
+}
+
+rect {
+    transform-origin: center;
+    transform-box: fill-box;
+    border-color: black;
+    border-style: solid;
+}
+
+#first {
+    position: relative;
+    left: 100px;
+}
+
+.styleSVG {
+    width: 400px;
+    height: 200px;
+    margin-left: 120px;
+}
+
+#p-text {
+    position: relative;
+    top: 86%;
+    left: 37%;
+    font-size: 34px;
+    animation: blinker 1s infinite;
+    z-index: 1;
+    color: blue;
+    margin-top: -150px;
+}
+
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.wrapper {
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-p::first-letter {
+    font-size: 170%;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.style{
+    color: black;
+    text-decoration: none;
+}
+#inf {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 120%;
+}
+#inf:hover{
+    color: darkred;
+}

@@ -1,0 +1,71 @@
+.bgImg {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+    
+}
+.body {
+    margin: auto;
+}
+#userData{
+    position: fixed;
+    top:100px;
+    left:35%;
+    z-index: 7;
+    background-color: grey;
+}
+.form {
+    position: relative;
+    left: 20%;
+    width: 60%;
+    margin: 20px;
+    line-height: 1.5;
+    border: solid #3c9eaa 1px;
+    box-shadow: px 5px 0px rgba(0, 0, 0, 0.28);
+}
+
+
+
+.hdr {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 70px;
+    background-color: rgba(33, 33, 33, 0.84);
+    color: white;
+    font-size: 45px;
+    font-family: "clFont";
+    line-height: 70px;
+    z-index: 1;
+    position: relative;
+    border-bottom: solid #3c9eaa 1px;
+}
+
+@font-face {
+    font-family: clFont;
+    src: url("../fonts/ahellya.ttf");
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    border-bottom: solid #3c9eaa 1px;
+}
+
+tr:hover {
+    background-color: rgba(94, 94, 94, 0.26);
+    transition: 0.3s;
+}
+
+tr:not {
+    transition: 0.3s;
+}
+
+
+
+

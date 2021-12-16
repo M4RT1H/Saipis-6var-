@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
+    <!-- <script src='../js/jquery-3.3.1.js'></script> -->
+    <script src="../js/jquery-ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Mobile</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../resource/mobile.jpg" />
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <header class="header"><span>Университет</span></header>
+
+        <article class="article">
+            
+            <form id="form" method="post">
+                
+                <table cellpadding="3">
+
+                    <tr>
+                        <td>Год Вашего рождения</td>
+                        <td><input id="birth" type="text" name="year" style=" width: 160px;"><br></td>
+                    </tr>
+
+                    <tr>
+                        <td>Ваш Университет</td>
+                        <td><input id="university" type="text" name="university" style=" width: 160px;"><br></td>
+                    </tr>
+
+                    <tr>
+                        <td>Ваш Факультет:</td>
+                        <td><input id="faculty" type="text" name="faculty" style=" width: 160px;"><br></td>
+                    </tr>
+
+                    <tr>
+                        <td>Вывод данных:</td>
+                        <td><input id="auto" type="text" name="auto" style=" width: 160px;" disabled="disabled"><br>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Размер текста</td>
+                        <td>
+                            <input type="radio" class="textSize" name="textSize" value="10">10
+                            <input type="radio" class="textSize" name="textSize" value="12">12
+                            <input type="radio" class="textSize" name="textSize" value="14" checked>14
+                            <input type="radio" class="textSize" name="textSize" value="16">16
+                            <input type="radio" class="textSize" name="textSize" value="18">18
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="border-bottom: none">
+                            <input type="Button" value="Заполнить форму" id="firstButton">
+                        </td>
+
+                        <td style="border-bottom: none">
+                            <input type="Button" value="Вывод модального окна" id="secondButton">
+                        </td>
+
+                        <td style="border-bottom: none">
+                            <input type="reset" value="Вывод данных текстового поля" id="lastButton">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+        <nav><a href="index.html">Сбросить данные</a></nav>
+        <!-- <nav class="navigation">
+            <a href="index.html">Сбросить данные</a>
+        </nav> -->
+        <div id="dd"></div>
+      
+    </div>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

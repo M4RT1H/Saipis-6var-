@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open Untitled-1.html",
+            "file": "d:\\БГУиР\\5 сем\\Саипис\\Лаба 1\\Untitled-1.html"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+.table {
+    
+    border-color: rgb(35, 6, 201);
+    box-shadow: 0px 0px 20px white;
+    border-collapse: collapse;
+    border-style: solid;
+    color: white;
+    /* font-size: 70px; */
+    text-align: center;
+    margin: auto;
+}
+body{
+    background-color: rgb(46, 42, 42);
+}
+td,tr{
+    border-color: rgb(35, 6, 201);
+    box-shadow: 0px 0px 20px white;
+    border-style: solid;
+    width: 200px;
+    height: 100px;
+}
+.colrow{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+}
+select{
+    text-align: center;
+    font-size: 20px;
+}
+
+.MainDiv{
+    display: flex;
+}
+
+#countRow,#countCol{
+    font-size: 30px;
+    color: white;
+}
+h1{
+    color: white;
+}

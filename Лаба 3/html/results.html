@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Данные</title>
+    <meta charset=utf-8>
+    <link rel="icon" type="image/ico" href="../favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body class="body">
+    <header class="hdr">
+        <span>Введённые данные</span>
+    </header>
+    <div id="userData">
+    </div>
+    <div class="form">
+        <input type="button" value="Очистить" onclick="clearData()" id="clearBtn">
+
+        <select class="select">
+        </select>
+
+
+        <div style="overflow: scroll">
+            <table id="result-table" cellpadding="4">
+                <thead>
+                    <tr style="background: white;">
+                        <td>Логин</td>
+                        <td>Имя</td>
+                        <td>Фамилия</td>
+                        <td>Дата покупки</td>
+                        <td>Вид</td>
+                        <td>Предпочитаемая<br>модель</td>
+                        <td>Комплектация</td>
+                        <td>Дополнительные<br> пожелания</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <script src="../js/results.js" type="text/javascript"></script>
+</body>
+
+</html>
